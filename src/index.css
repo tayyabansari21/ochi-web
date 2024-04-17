@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.eyeballContainer h3 {
+    display: none;
+}
+
+@layer base {
+    @font-face {
+        font-family: 'FoundersGrotesk-Semibold';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(./assets/FoundersGrotesk-Semibold.woff2) format('woff2');
+    }
+
+    @font-face {
+        font-family: 'FoundersGrotesk-Semibold';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(./assets/FoundersGrotesk-Semibold.woff) format('woff');
+    }
+
+    @font-face {
+        font-family: 'NeueMontreal-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(./assets/NeueMontreal-Regular.woff2) format('woff2');
+    }
+
+    @font-face {
+        font-family: 'NeueMontreal-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(./assets/FoundersGrotesk-Semibold.woff) format('woff');
+    }
+}
